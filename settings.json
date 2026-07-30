@@ -1,0 +1,105 @@
+{
+  "slug": "jx888",
+  "title": "橙總派對｜LINE一鍵登入 立即開玩",
+  "status": "active",
+  "pixel_id": "1704194437524907",
+  "background_image": "hosts/jx888/bg-1785155259421.jpg",
+  "person_image": "hosts/jx888/ip-1785155259843.png",
+  "logo_image": "hosts/jx888/logo-1785155263767.png",
+  "buttons": [
+    {
+      "id": "line-main",
+      "name": "加入官方 LINE",
+      "url": "https://line.me/R/ti/p/@h1788",
+      "image": "hosts/jx888/line-main-1785155267344.png",
+      "enabled": true,
+      "effect": "pulse",
+      "events": [
+        {
+          "id": "event-1",
+          "enabled": true,
+          "type": "track",
+          "name": "Contact",
+          "params": {
+            "button": "line-main"
+          }
+        },
+        {
+          "id": "event-2",
+          "enabled": true,
+          "type": "track",
+          "name": "Lead",
+          "params": {
+            "button": "line-main"
+          }
+        }
+      ]
+    }
+  ],
+  "custom_domains": [],
+  "layout": {
+    "bgX": 50,
+    "bgY": 50,
+    "bgScale": 100,
+    "logoX": 50,
+    "logoY": 0,
+    "logoW": 38,
+    "personX": 50,
+    "personY": 14,
+    "personW": 97,
+    "buttonsX": 50,
+    "buttonsY": 90,
+    "buttonsW": 93
+  },
+  "canvas": {
+    "ratio": "9:16",
+    "desktopMode": "center",
+    "backgroundFit": "cover"
+  },
+  "effects": {
+    "background": "none",
+    "person": "none",
+    "logo": "none",
+    "buttons": "none",
+    "speed": "slow",
+    "intensity": "low"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "image": "hosts/jx888/seo-share-1785213906859.png",
+    "keywords": [],
+    "canonical": "",
+    "robots": "noindex,nofollow",
+    "h1": "",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "橙總派對1:100｜註冊送10000",
+      "description": "橙總派對1:100｜註冊送10000官方資訊頁面。",
+      "url": "https://jx888.1766tw.com/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "橙總派對1:100｜註冊送10000",
+        "url": "https://jx888.1766tw.com"
+      },
+      "mainEntity": {
+        "@type": "WebSite",
+        "name": "橙總派對1:100｜註冊送10000",
+        "url": "https://jx888.1766tw.com"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://jx888.1766tw.com/assets/hosts/jx888/bg-1785155259421.jpg"
+      }
+    }
+  },
+  "capi": {
+    "enabled": true,
+    "pageview": true,
+    "button": true,
+    "test_event_code": "TEST1799",
+    "token_set": true,
+    "token_hint": "XwZDZD"
+  }
+}
